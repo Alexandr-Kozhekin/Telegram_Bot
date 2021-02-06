@@ -37,25 +37,4 @@ public class TelegramBotApplication extends TelegramLongPollingBot {
 		return botToken;
 	}
 
-//	private BotCommand getCommand(Update update) {
-//		if (update.hasMessage()) {
-//
-//			Message message = update.getMessage();
-//
-//			if (message != null && message.hasText()) {
-//
-//				String msgText = message.getText();
-//
-//				if (msgText.startsWith(BotCommand.HELP.getCommand())) {
-//					return BotCommand.HELP;
-//				} else if (msgText.startsWith(BotCommand.START.getCommand())) {
-//					return BotCommand.START;
-//				} else if (msgText.startsWith(BotCommand.SETTING.getCommand())) {
-//					return BotCommand.SETTING;
-//				}
-//			}
-//		}
-//		return BotCommand.NONE;
-//	}
-
 }
